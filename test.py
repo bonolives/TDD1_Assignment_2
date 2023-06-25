@@ -45,3 +45,8 @@ def multiply(a, b):
 # Writing test four : Its Red
 def test4_multiply():
     assert multiply(4, 4) == 16
+
+
+# Making fourth test cycle green
+def multiply(a, b):
+    return a * b
