@@ -4,3 +4,8 @@
 # Writing first test
 def test1_multiply():
     assert multiply(1, 1) == 1
+
+
+# writing a multiply function to get test one to pass
+def multiply(a, b):
+    return a * b
