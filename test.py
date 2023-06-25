@@ -1,20 +1,26 @@
-# Test First TDD cycle 1
+# TEST FIRST TDD CYCLE 1
 
-"""
+
 # Writing first test
 def test1_multiply():
     assert multiply(1, 1) == 1
 
 
+"""
 # writing a multiply function to get test one to pass
 def multiply(a, b):
     return a * b
 """
 
 
-# Test First TDD Cycle 2
+# TEST FIRST TDD CYCLE 2
 
 
 # writing Second Test
 def test2_multiply():
     assert multiply(2, 2) == 4
+
+
+# Updating the multiply function to pass test 2 but making sure test 1 passes too
+def multiply(a, b):
+    return a * b
