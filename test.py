@@ -31,4 +31,9 @@ def multiply(a, b):
 
 # Writing third test
 def test3_multiply():
-    assert (3, 3) == 9
+    assert multiply(3, 3) == 9
+
+
+# Updating multiply function to pass the third test and also  making sure not to break test 1 and test 2
+def multiply(a, b):
+    return a * b
