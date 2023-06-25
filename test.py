@@ -60,3 +60,8 @@ def multiply(a, b):
 # writing fifth test: it's Red
 def test5_multiply():
     assert multiply(23, 45) == 23 * 45
+
+
+# Making fifth test green
+def multiply(a, b):
+    return a * b
