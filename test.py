@@ -1,6 +1,6 @@
 # TEST FIRST TDD CYCLE 1
 
-
+'''
 # Writing first test
 def test1_multiply():
     assert multiply(1, 1) == 1
@@ -40,6 +40,7 @@ def test3_multiply():
 def multiply(a, b):
     return a * b
 """
+
 # FOURTH TEST CYCLE
 
 
@@ -51,3 +52,11 @@ def test4_multiply():
 # Making fourth test cycle green
 def multiply(a, b):
     return a * b
+'''
+
+# FIFTH TEST CYCLE
+
+
+# writing fifth test: it's Red
+def test5_multiply():
+    assert multiply(23, 45) == 23 * 45
